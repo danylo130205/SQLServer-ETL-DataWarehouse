@@ -1,0 +1,546 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/16/2026 7:53:04 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DANY"
+  DTS:CreatorName="DANY\dnayj"
+  DTS:DTSID="{D88C901B-E8D2-4513-941F-A79DD900B154}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
+  DTS:LocaleID="22538"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{D42F5AD3-53C2-41FD-BB26-8E5E29A6E5AE}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Category"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{4c331bb8-e9be-4cbd-b6d7-aae8cf5bdc55}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Category"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Category.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Customers"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{4E44CA2F-84A4-48DF-BE19-5883758F36E9}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Customers"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Customers.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Geolocation"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{5e7ed829-ed4f-4966-88fb-435e03dc9d2a}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Geolocation"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Geolocation.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Items"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{9ab53b7a-54f1-443c-8d99-f90a69b40811}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Items"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Items.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Orders"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{792bb76d-e91d-43a8-97e7-218505f2d042}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Orders"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Orders.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Payments"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{3c5a2683-1e78-4851-8f4c-ded1287a8be7}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Payments"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Payments.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Products"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{a4d88ea0-eb4d-444b-b037-e0fab3a314d9}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Products"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Products.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Reviews"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{2d020d91-8b88-4839-858e-b0e44357f362}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Reviews"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Reviews.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load RAW Sellers"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Tarea Ejecutar paquete"
+      DTS:DTSID="{8f1ac10b-c208-46f0-9404-98c64fc9a1e8}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load RAW Sellers"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>RAW_Sellers.dtsx</PackageName>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{B047DBA6-463D-4CD5-8173-F596FB08C490}"
+      DTS:From="Package\Load RAW Customers"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Load RAW Category" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{AF7E3ED2-237D-4FCF-9F0B-05FE30FD1213}"
+      DTS:From="Package\Load RAW Category"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 1"
+      DTS:To="Package\Load RAW Payments" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{1686A515-BBD8-41BA-BE6C-D4BD74EA4E2B}"
+      DTS:From="Package\Load RAW Payments"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 2"
+      DTS:To="Package\Load RAW Geolocation" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{0D3639C5-5FFB-4A58-BCDA-7F1B4AC10FDD}"
+      DTS:From="Package\Load RAW Geolocation"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 3"
+      DTS:To="Package\Load RAW Orders" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{E63DA169-3133-4FDA-8681-F9AA5C656F0C}"
+      DTS:From="Package\Load RAW Orders"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 4"
+      DTS:To="Package\Load RAW Items" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{E90673F3-0635-428E-A1D2-60636FFFB9A6}"
+      DTS:From="Package\Load RAW Items"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 5"
+      DTS:To="Package\Load RAW Products" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{5C96850A-9167-4426-8DCA-C3F0ECAA94D7}"
+      DTS:From="Package\Load RAW Products"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 6"
+      DTS:To="Package\Load RAW Reviews" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{693F4BA2-D860-4F99-8657-D48EB64E4FC2}"
+      DTS:From="Package\Load RAW Reviews"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 7"
+      DTS:To="Package\Load RAW Sellers" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Load RAW Category"
+          TopLeft="195.31746073324,68.4836600706904" />
+        <NodeLayout
+          Size="180,41.6"
+          Id="Package\Load RAW Customers"
+          TopLeft="4.28571429483746,38.999999965815" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\Load RAW Geolocation"
+          TopLeft="483.253969282688,169.488888829382" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Load RAW Items"
+          TopLeft="180.079365462707,203.964705881683" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Load RAW Orders"
+          TopLeft="428.492064404211,240.564705938658" />
+        <NodeLayout
+          Size="176,41.6"
+          Id="Package\Load RAW Payments"
+          TopLeft="389.682540512071,46.3071895018936" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Load RAW Products"
+          TopLeft="20.555555599313,280.074509825594" />
+        <NodeLayout
+          Size="168.8,41.6"
+          Id="Package\Load RAW Reviews"
+          TopLeft="160.2380955792,366.380392191941" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Load RAW Sellers"
+          TopLeft="393.571429409239,362.132026182593" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="184.285714294837,45.9836600706904">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="97.0317464384025,22.5"
+              Start="0,0"
+              End="97.0317464384025,15">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="93.0317464384025,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="93.0317464384025,0"
+                    Point2="97.0317464384025,0"
+                    Point3="97.0317464384025,4" />
+                  <mssgle:LineSegment
+                    End="97.0317464384025,15" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 1]"
+          TopLeft="281.31746073324,110.08366007069">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="224.365079778832,-22.1764705687968"
+              Start="0,0"
+              End="224.365079778832,-14.6764705687968">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="4,22.5" />
+                  <mssgle:LineSegment
+                    End="220.365079778832,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="220.365079778832,22.5"
+                    Point2="224.365079778832,22.5"
+                    Point3="224.365079778832,18.5" />
+                  <mssgle:LineSegment
+                    End="224.365079778832,-14.6764705687968" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 2]"
+          TopLeft="505.682540512071,87.9071895018936">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="70.3714287706174,81.5816993274884"
+              Start="0,0"
+              End="70.3714287706174,74.0816993274884">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.0736618895223" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,29.0736618895223"
+                    Point2="0,33.0736618895223"
+                    Point3="4,33.0736618895223" />
+                  <mssgle:LineSegment
+                    End="66.3714287706174,33.0736618895223" />
+                  <mssgle:CubicBezierSegment
+                    Point1="66.3714287706174,33.0736618895223"
+                    Point2="70.3714287706174,33.0736618895223"
+                    Point3="70.3714287706174,37.0736618895223" />
+                  <mssgle:LineSegment
+                    End="70.3714287706174,74.0816993274884" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 3]"
+          TopLeft="576.053969282688,211.088888829382">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66.7619048784774,29.475817109276"
+              Start="0,0"
+              End="-66.7619048784774,21.975817109276">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.737908554638" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.737908554638"
+                    Point2="0,14.737908554638"
+                    Point3="-4,14.737908554638" />
+                  <mssgle:LineSegment
+                    End="-62.7619048784774,14.737908554638" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-62.7619048784774,14.737908554638"
+                    Point2="-66.7619048784774,14.737908554638"
+                    Point3="-66.7619048784774,18.737908554638" />
+                  <mssgle:LineSegment
+                    End="-66.7619048784774,21.975817109276" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 4]"
+          TopLeft="428.492064404211,261.364705938658">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-91.6126989415038,-36.600000056975"
+              Start="0,0"
+              End="-84.1126989415038,-36.600000056975">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-41.8063494707519,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-41.8063494707519,0"
+                    Point2="-45.8063494707519,0"
+                    Point3="-45.8063494707519,-4" />
+                  <mssgle:LineSegment
+                    End="-45.8063494707519,-32.600000056975" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-45.8063494707519,-32.600000056975"
+                    Point2="-45.8063494707519,-36.600000056975"
+                    Point3="-49.8063494707519,-36.600000056975" />
+                  <mssgle:LineSegment
+                    End="-84.1126989415038,-36.600000056975" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 5]"
+          TopLeft="258.479365462707,245.564705881683">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-152.323809863394,34.5098039439117"
+              Start="0,0"
+              End="-152.323809863394,27.0098039439117">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.2549019719558" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.2549019719558"
+                    Point2="0,17.2549019719558"
+                    Point3="-4,17.2549019719558" />
+                  <mssgle:LineSegment
+                    End="-148.323809863394,17.2549019719558" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-148.323809863394,17.2549019719558"
+                    Point2="-152.323809863394,17.2549019719558"
+                    Point3="-152.323809863394,21.2549019719558" />
+                  <mssgle:LineSegment
+                    End="-152.323809863394,27.0098039439117" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 6]"
+          TopLeft="106.155555599313,321.674509825594">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="138.482539979887,44.705882366347"
+              Start="0,0"
+              End="138.482539979887,37.205882366347">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.3529411831735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.3529411831735"
+                    Point2="0,22.3529411831735"
+                    Point3="4,22.3529411831735" />
+                  <mssgle:LineSegment
+                    End="134.482539979887,22.3529411831735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="134.482539979887,22.3529411831735"
+                    Point2="138.482539979887,22.3529411831735"
+                    Point3="138.482539979887,26.3529411831735" />
+                  <mssgle:LineSegment
+                    End="138.482539979887,37.205882366347" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 7]"
+          TopLeft="329.0380955792,385.056209187267">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="64.5333338300385,0"
+              Start="0,0"
+              End="57.0333338300385,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.0333338300385,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
